@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,800');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+    background-image: url('src/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.key {
+    display: inline-block;
+    width: 60px;
+    background: rgba(0, 0, 0, 0.75);
+    border: solid 1px #111;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    transition: all 0.05s;
+}
+
+.key kbd {
+    display: block;
+    font-family: 'Consolas', sans-serif;
+    font-size: 2rem;
+}
+
+.key span {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.drum {text-align: center;}
+
+.drum-main {
+    display: table;
+    width: 640px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #fff;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.drum h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 3rem;
+}
+
+.drum p {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 60px;
+}
+
+.drum p strong {
+    font-weight: 800;
+}
+
+.drum a {
+    display: inline-block;
+    background: #fff;
+    padding: 2px 10px;
+    font-weight: 800;
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s all;
+}
+
+.drum a:hover {
+    transform: rotate(3deg);
+}
